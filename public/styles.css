@@ -109,8 +109,8 @@ a {
     margin-left: 6vw;
 }
 .hero_image {
-    width: auto;
-    height: 100%;
+    width: 60%;
+    height: auto;
 }
 .headline {
     font-weight: normal;
@@ -120,12 +120,16 @@ a {
 }
 .hero button {
     margin-top: 2vw;
+    font-size: 1rem;
+    padding: 1rem;
 }
 .mockups {
     z-index: 1;
     right: -15px;
     top: 100px;
     position: absolute;
+    width: auto;
+    height: 100%;
 }
 
 /*ABOUT STYLES */
