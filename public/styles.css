@@ -193,7 +193,7 @@ a {
 .card_text {
     background: white;
     padding: 1.7rem;
-    margin-top: 0.2rem;
+    margin-top: 0;
 }
 .card_title {
     font-size: 1.1rem;
@@ -202,8 +202,10 @@ a {
 }
 .card_img {
     width: 270px;
-    height: auto;
+    height: 180px;
     border-radius: 5px 5px 0 0;
+    margin-bottom: 0;
+    padding: 0;
 }
 
 /*FOOTER STYLES */
@@ -215,6 +217,7 @@ footer {
     display: flex;
     color: white;
     justify-content: space-around;
+    align-items: center;
     margin-left: 6vw;
     padding-top: 40px;
 }
@@ -233,6 +236,7 @@ footer {
 .copyright {
     font-size: 0.7rem;
 }
+
 .attribution a {
     color: white;
 }
