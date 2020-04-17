@@ -1,0 +1,202 @@
+/*Remove margins and padding from HTML and Body elements*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+    color: hsl(233, 26%, 24%);
+    overflow-x: hidden;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+/*HEADER STYLES */
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+header * {
+    display: inline;
+}
+header li {
+    margin: 1vw;
+}
+
+header .logo {
+    margin: 6vw;
+}
+
+header button {
+    margin-left: 6vw;
+    margin-right: 30px;
+}
+.invite_button {
+    background: linear-gradient(
+        90deg,
+        rgba(49, 211, 92, 1) 10%,
+        rgba(43, 183, 218, 1) 82%
+    );
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 0.8rem;
+    width: 150px;
+}
+.lead {
+    color: hsl(233, 8%, 62%);
+    line-height: 1.6rem;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+/*HERO STYLES */
+.hero {
+    background: hsl(0, 0%, 98%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    width: 100vw;
+}
+.hero_text {
+    margin-left: 6vw;
+}
+.hero_image {
+    width: auto;
+    height: 100%;
+}
+.headline {
+    font-weight: normal;
+}
+.hero_header {
+    font-size: 2.8rem;
+}
+.hero button {
+    margin-top: 2vw;
+}
+.mockups {
+    z-index: 1;
+    right: -15px;
+    top: 100px;
+    position: absolute;
+}
+
+/*ABOUT STYLES */
+
+.about {
+    background: hsl(220, 16%, 96%);
+    height: 100vh;
+    margin-top: 0;
+}
+.about h3 {
+    font-size: 1.5rem;
+    margin-left: 6vw;
+    padding-top: 20vh;
+    margin-top: 0;
+}
+
+.about_text {
+    margin-left: 6vw;
+}
+
+.features {
+    margin-left: 6vw;
+    display: flex;
+    padding-top: 5vw;
+}
+.feature_item {
+    margin-right: 3vw;
+}
+.about h5 {
+    font-size: 1rem;
+}
+
+/*BLOG STYLES */
+.blog_wrapper {
+    margin-top: 0;
+    background: hsl(0, 0%, 98%);
+}
+.blog {
+    margin-top: 0;
+    margin-left: 6vw;
+}
+.blog h3 {
+    padding-top: 10vh;
+    font-size: 1.5rem;
+}
+.articles {
+    display: flex;
+    padding-top: 8vh;
+}
+.small {
+    font-size: 0.7rem;
+}
+.card {
+    width: 270px;
+    border-radius: 5px;
+    border: transparent;
+    margin-right: 2rem;
+}
+.card_text {
+    background: white;
+    padding: 1.7rem;
+    margin-top: 0.2rem;
+}
+.card_title {
+    font-size: 1.1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.card_img {
+    width: 270px;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
