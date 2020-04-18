@@ -26,7 +26,11 @@
             <div class="logo">
                 <a href="#home"><img src="./images/logo.svg" alt="easybank logo" /></a>
             </div>
-            <nav>
+            <img class="hamburger" id="hamburger" src="./images/icon-hamburger.svg" alt="hamburger icon">
+                <img class="close" id="close" src="./images/icon-close.svg" alt="close icon">
+            <nav id="nav">
+
+<div>
                 <ul>
                     <li><a href="#home" class="lead">Home</a></li>
                     <li><a href="#about" class="lead">About</a></li>
@@ -34,7 +38,9 @@
                     <li><a href="#blog" class="lead">Blog</a></li>
                     <li><a href="#careers" class="lead">Careers</a></li>
                 </ul>
-                <button class="invite_button">Request Invite</button>
+            </div>
+            <div>
+                <button class="invite_button">Request Invite</button></div>
             </nav>
         </header>
 
@@ -55,6 +61,7 @@
                 </div>
                 <button class="invite_button">Request Invite</button>
             </div>
+            <div>
             <img
                 src="./images/bg-intro-desktop.svg"
                 alt="blue and green svg blobs"
@@ -66,6 +73,7 @@
             showing currency amounts"
                 class="mockups "
             />
+        </div>
         </section>
 
         <!----ABOUT SECTION ------------->
@@ -312,4 +320,26 @@
             </div>
         </footer>
     </body>
+    <script>
+        let nav = document.getElementById('nav');
+let hamburger = document.getElementById('hamburger');
+let closeIcon = document.getElementById('close');
+
+
+hamburger.addEventListener('click', function () {
+hamburger.classList.toggle('hide');
+closeIcon.classList.toggle('show');
+
+    nav.classList.toggle('active');
+    //nav.style.display  = "block"
+});
+
+closeIcon.addEventListener('click', function () {
+hamburger.classList.toggle('hide');
+closeIcon.classList.toggle('show');
+
+    nav.classList.toggle('active');
+    //nav.style.display  = "block"
+});
+    </script>
 </html>
