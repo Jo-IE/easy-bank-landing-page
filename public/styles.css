@@ -280,14 +280,17 @@ footer {
         flex-direction: column-reverse;
         justify-content: space-around;
     }
+    .hero_text {
+        margin-top: -200px;
+    }
     .mockups {
-        width: 60vw;
+        width: 50vw;
         height: auto;
-        top: 5vh;
+        top: 5px;
         right: 20vw;
     }
     .hero_image {
-        width: 80vw;
+        width: 60vw;
     }
     nav {
         display: none;
